@@ -1,7 +1,61 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    margin: 2%;
+}
 .green{
     color: rgb(12, 156, 182);
 }
 .width{
     width: 500;
     height:600 ;
+    padding: 2% ;
+}
+.flexible-container{
+    display: flex;
+    margin: bottom 0px;
+}
+.link-button{
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding:5px;font-size:20px;background-color:rgb(29, 135, 221);color:#ffffff;
+    text-align: center;
+}
+.align{
+    text-align: center;
+}
+.top-banner{
+    background-image: url(jannatb.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.para-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#para{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#parag{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#paragr{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.footer p{
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding:5px;font-size:20px;background-color:rgb(29, 135, 221);color:#ffffff;
+    text-align: center;
 }
